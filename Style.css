@@ -16,35 +16,45 @@ align-items: end;
   background-repeat: no-repeat;
   background-size:cover;
   height: 862px;
-  margin-top: 0px;
+  text-align: center;
+  background-attachment: fixed;
+
+  
 
 }
 .Hero-content h1 {
+  font-family: "Kumbh Sans", serif;
+  font-size: 80px;
 color: white;
 text-align: center;
+font-weight: bolder;
   
 }
 
 .Hero-content p{
-  font: size px;
+  font-family: "Kumbh Sans", serif;
+  font-size: 25px;
   line-height: 30px;
   color:white;
   text-align: center;
+  padding: 5px;
 
 }
 .Hero-content{
-  line-height:2;
-  text-align: center;
-  padding: 180px;
+
+text-align: center; 
+justify-content: center;
+padding: 200px 0px 0px 0px;
 
 }
 
 
 .showmore {
 background-color: rgb(148, 74, 74);
+font-family: "Kumbh Sans", serif;
 border: none;
-color: black;
-padding: 16px 32px;
+color: white;
+padding: 16px 80px;
 text-align: center;;
 display: inline-block;
 font-size: 16px;
@@ -55,15 +65,21 @@ margin: 2px 4px;
   padding-top:100px;
   padding-bottom: 100px;
 }
+.Best{
+  padding: 50px;
+  text-align: center;
+}
 .Best h2{
   font-size: 50PX;
+  font-family: "Kumbh Sans", serif;
   line-height: 60PX;
-  text-align: center;
+  font-weight: bold;
 }
 .img-container
 {
-  height: 430px;
-  overflow:hidden ;
+  height: 450px;
+  align-items: center;
+
 }
 .img-container img{
   width: 100%;
@@ -71,25 +87,41 @@ margin: 2px 4px;
   object-fit: cover;
 }
 
-.img-container:hover{
-  scale: 0.8;
+.img-container img:hover{
+  width: 100%;
+  scale: 0.9;
+  transition: 0.3s linear;
 
 }
 .price1 a{
   text-decoration: none;
   color: black;
-
+  font-family: "Kumbh Sans", serif;
+  font-size: 22px;
+  line-height: 25px;
+}
+.price1 a h3{
+  font-family: "Kumbh Sans", serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.price1{
+  text-align: left;
+  padding: 10px;
 }
 /* <--section--> 3 */
 
 
 
 .More{
+  font-family: "Kumbh Sans", serif;
 background-color: rgb(148, 74, 74);
 border: none;
-color: black;
-padding: 16px 32px;
-text-align: center;;
+color:white;
+padding: 16px 80px;
+text-align: center;
 display: inline-block;
 font-size: 16px;
 margin: 2px 4px;
@@ -102,30 +134,60 @@ margin: 2px 4px;
 
   
 }
-.collection
+.collection p{
+  font-family: "Kumbh Sans", serif;
+  font-size: 17px;
+  line-height:  27px;
+
+}
+.collection h1{
+  font-family: "Kumbh Sans", serif;
+  font-size: 50px;
+  line-height:  60px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.collection 
 {
+  width: 80%;
   color: black;
+padding: 100px 0px 0px 50px;
   
 }
-}
 .new-collection-left-img{
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
+   height: 299.5px;
+   padding-top: 20px;
+   
+}
+.new-collection-left-img-1{
+  height: 299.5px;
+  padding-top: 20px;
+
 }
 .new-collection-left-img img{
    width: 100%;
-   height: 50%;
+   height: 100%;
+   object-fit: cover;
+   filter: brightness(0.7);
+}
+.new-collection-left-img-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  
 }
 .new-collection-right-img{
-   width: 100%;
-   height: 100%;
+   height:600px;
+   padding-top: 20px;
+
 }
 .new-collection-right-img img
-
 {
    width: 100%;
-   height: 100%
+   height: 100%;
+   object-fit: cover;
+   filter: brightness(0.7);
 }
 
 /* section-4 */
@@ -146,25 +208,29 @@ margin: 2px 4px;
 .work-container img{
   height: 100%;
   width: 100%;
+  object-fit: cover;
+  opacity:1;
 
 }
 .workshop-text
 {
-position: relative;
-top:150px;
+width: 65%;
+  margin: 100px 0px 0px 70px;
+  /* padding: 99px 0px 0px 0px; */
 
 
 
 }
 .workshop-text h1{
-  
+  font-family: "Kumbh Sans", serif;
   font-size: 50px;
   font-weight: bold;
   line-height: 60px;
   
 }
 .workshop-text p{
-text-align: center;
+text-align;
+font-family: "Kumbh Sans", serif;
   font-size: 17px;
   line-height: 27px;
 
@@ -173,11 +239,12 @@ text-align: center;
   background-color: rgb(148, 74, 74);
 border:none;
 color: white;
-padding: 16px 70px;
+padding: 16px 75px;
 text-align: center;
 display: inline-block;
 font-size: 16px;
-margin: 4px 8px;
+margin: 2px 4px;
+font-family: "Kumbh Sans", serif;
   
 }
 
@@ -191,6 +258,7 @@ margin: 4px 8px;
 }
 .employees h1{
   text-align: center;
+  font-family: "Kumbh Sans", serif;
   line-height: 60px;
   font-size: 50px;
   font-weight:700;
@@ -211,13 +279,15 @@ background-size: cover;
 }
 .testimonal p{
   text-align: center;
+  font-family: "Kumbh Sans", serif;
   font: size 17px;
   line-height:27px;
-  padding: 20px;
+  padding: 20px 50px;
 
 }
-.testimonal h1{
+.testimonal h4{
    text-align:center;
+   font-family: "Kumbh Sans", serif;
    font: size 25px;
    line-height: 35px;
    padding-top: 30px;
@@ -234,17 +304,23 @@ background-size: cover;
   padding-bottom: 100px;
 
 }
+
 .tile-img{
-  height: 710px;
+  height: 650px;
+  margin-bottom: 10px;
+  
     
 }
 .tile-img img{
   Width: 100%;
   height: 100%;
+  object-fit: cover;
   
 }
 .decores{ 
-  height: 366px;
+  height: 308px;
+  margin-bottom: 10px;
+  
   
 }
 .decores img{
@@ -253,7 +329,8 @@ background-size: cover;
   object-fit: cover;
 }
 .decor{
-  height: 366px;
+  height: 308px;
+  margin-bottom:  10px;
  
 }
 .decor img{
@@ -277,70 +354,81 @@ background-size: cover;
   background: url("Assets/HOME PAGE/history.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  background-attachment: fixed;
+  height: 680px;
+  filter: brightness(0.5);
 }
+/* .section-7::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("Assets/HOME PAGE/history.jpg") no-repeat center center/cover;
+  filter: brightness(0.); /* Apply brightness filter to the background 
+  z-index: 1; */
 .story{
-padding:20%;
+padding:178px 5px 5px 40px;
 padding-bottom: 100px;
 }
 .story h2{
   color: white;
+  font-family: "Kumbh Sans", serif;
   font-size: 50px;
   font-weight: bolder;
 }
 .story p{
   color: white;
-  font-weight: bold;
   font-size: 17px;
+  font-family: "Kumbh Sans", serif;
   
 }
 
 .footer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #171717;
   color: white;
-  padding: 20px;
-  text-align: left;
+  padding: 40px;
+  text-align: center;
+  
 }
 
 .footer-section {
-  flex: 1 1 18%; 
-  margin: 10px;
+  flex: 1 1 20%; 
+
+
 }
 .footer-section a{
   text-decoration: none;
   color: white;
-
-.footer-section h4 {
-  margin-bottom: 10px;
 }
-
 .footer-section p, .footer-section ul {
-  margin: 5px 0;
-  font-size: 14px;
+  font-family: "Kumbh Sans", serif;
+  font-size: 17px;
+  padding: 5px;
 }
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
+
 
 .footer-section ul li {
-  margin: 5px 0;
   list-style: none;
+  padding: 5px;
 }
 
 .footer-section ul li a {
+
   color: white;
   text-decoration: none;
+  padding: 5px;
 }
 
 .footer-section ul li a:hover {
   text-decoration: none;
 }
-.social{
+.footer-section-1{
   display: flex;
   justify-content: space-evenly;
+  font-size: 30px;
+  align-items: center;
 }
